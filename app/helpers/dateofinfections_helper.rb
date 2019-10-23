@@ -1,0 +1,2 @@
+module DateofinfectionsHelper
+end
