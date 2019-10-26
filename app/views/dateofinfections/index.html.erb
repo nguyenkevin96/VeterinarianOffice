@@ -16,8 +16,8 @@
     <% @dateofinfections.each do |dateofinfection| %>
       <tr>
         <td><%= dateofinfection.dateofinfection %></td>
-        <td><%= dateofinfection.animal_id %></td>
-        <td><%= dateofinfection.disease_id %></td>
+        <td><%= dateofinfection.animal.name %></td>
+        <td><%= dateofinfection.disease.name %></td>
         <td><%= link_to 'Show', dateofinfection %></td>
         <td><%= link_to 'Edit', edit_dateofinfection_path(dateofinfection) %></td>
         <td><%= link_to 'Destroy', dateofinfection, method: :delete, data: { confirm: 'Are you sure?' } %></td>
