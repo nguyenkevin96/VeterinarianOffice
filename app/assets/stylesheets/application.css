@@ -13,3 +13,141 @@
  *= require_tree .
  *= require_self
  */
+ #header {
+    padding: 10px;
+    background-color: rgb(195, 187, 240);
+    border: 3px solid rgb(148, 149, 158);
+    
+}
+
+#header {
+    font-family: "Trebuchet MS";
+    font-size: 20px;
+}
+
+.fancy{
+    font-style: oblique;
+    font-weight: 600;
+}
+
+#animal{
+    color: rgba(211, 24, 24, 0.815);
+}
+
+
+table.animalTable tbody td
+ {
+    border:1px solid #AAAAAA;
+    padding:3px 2px
+   }
+
+   table.animalTable {
+    border:1px solid #1C6EA4;
+    background-color:#EEEEEE;
+    width:50%;
+    text-align:left;
+    border-collapse:collapse
+   }
+
+   table.animalTable td,
+   table.animalTable th {
+    border:1px solid #AAAAAA;
+    padding:3px 2px
+   }
+
+   table.animalTable tr:nth-child(even) {
+    background:rgb(203, 189, 240)
+   }
+
+   
+   table.dateTable tbody td
+ {
+    border:1px solid #AAAAAA;
+    padding:3px 2px
+   }
+   
+   table.dateTable {
+    border:1px solid #1C6EA4;
+    background-color:#EEEEEE;
+    width:50%;
+    text-align:left;
+    border-collapse:collapse
+   }
+
+   table.dateTable td,
+   table.dateTable th {
+    border:1px solid #AAAAAA;
+    padding:3px 2px
+   }
+
+   table.dateTable tr:nth-child(even) {
+    background:rgb(203, 189, 240)
+   }
+
+   #doi{
+    color: rgba(211, 24, 24, 0.815);
+}
+   
+
+table.diseaseTable tbody td
+ {
+    border:1px solid #AAAAAA;
+    padding:3px 2px
+   }
+   
+   table.diseaseTable {
+    border:1px solid #1C6EA4;
+    background-color:#EEEEEE;
+    width:50%;
+    text-align:left;
+    border-collapse:collapse
+   }
+
+   table.diseaseTable td,
+   table.diseaseTable th {
+    border:1px solid #AAAAAA;
+    padding:3px 2px
+   }
+
+   table.diseaseTable tr:nth-child(even) {
+    background:rgb(203, 189, 240)
+   }
+
+   #disease{
+    color: rgba(211, 24, 24, 0.815);
+}
+ 
+
+table.ownerTable tbody td
+ {
+    border:1px solid #AAAAAA;
+    padding:3px 2px
+   }
+
+   table.ownerTable {
+    border:1px solid #1C6EA4;
+    background-color:#EEEEEE;
+    width:50%;
+    text-align:left;
+    border-collapse:collapse
+   }
+
+   table.ownerTable td,
+   table.ownerTable th {
+    border:1px solid #AAAAAA;
+    padding:3px 2px
+   }
+
+   table.ownerTable tr:nth-child(even) {
+    background:rgb(203, 189, 240)
+   }
+
+   #owner{
+    color: rgba(211, 24, 24, 0.815);
+}
+
+.bella{
+    width: 100%;
+    height: 675px;
+    align-content: middle;
+}

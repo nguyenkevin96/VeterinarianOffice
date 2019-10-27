@@ -2,7 +2,7 @@
 
 <p>
   <strong>Dateofinfection:</strong>
-  <%= @dateofinfection.dateofinfection %>
+  <%= @dateofinfection.dateofinfection.time.to_formatted_s(:long_ordinal) %>
 </p>
 
 <p>
