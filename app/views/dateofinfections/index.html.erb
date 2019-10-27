@@ -1,11 +1,11 @@
 <p id="notice"><%= notice %></p>
-
-<h1>Dateofinfections</h1>
-
-<table>
+<div id="doi">
+<h1>Date of Infections</h1>
+</div>
+<table class=dateTable>
   <thead>
     <tr>
-      <th>Dateofinfection</th>
+      <th>Date of Infection</th>
       <th>Animal</th>
       <th>Disease</th>
       <th colspan="3"></th>
@@ -15,7 +15,7 @@
   <tbody>
     <% @dateofinfections.each do |dateofinfection| %>
       <tr>
-        <td><%= dateofinfection.dateofinfection %></td>
+        <td><%= dateofinfection.dateofinfection.time.to_formatted_s(:long_ordinal) %></td>
         <td><%= dateofinfection.animal.name %></td>
         <td><%= dateofinfection.disease.name %></td>
         <td><%= link_to 'Show', dateofinfection %></td>
@@ -28,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New Dateofinfection', new_dateofinfection_path %>
+<%= link_to 'New Date of Infection', new_dateofinfection_path %>

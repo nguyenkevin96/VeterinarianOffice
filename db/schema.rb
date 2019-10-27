@@ -24,8 +24,8 @@ ActiveRecord::Schema.define(version: 2019_10_23_185633) do
 
   create_table "dateofinfections", force: :cascade do |t|
     t.datetime "dateofinfection"
-    t.integer "animal_id", null: false
-    t.integer "disease_id", null: false
+    t.integer "animal_id"
+    t.integer "disease_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["animal_id"], name: "index_dateofinfections_on_animal_id"

@@ -7,9 +7,11 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%=image_tag 'IMG_5690.JPG', class: "bella" %>
   </head>
 
   <body>
+  <div id="header">
   <h2>KIK's Vet Office</h2>
   <p class="fancy">
     <%= link_to 'Animals', animals_path %>
@@ -17,6 +19,7 @@
     <%= link_to 'Diseases', diseases_path %>
     <%= link_to 'Owners', owners_path %>
   </p>
+  </div>
     <%= yield %>
   </body>
 </html>
